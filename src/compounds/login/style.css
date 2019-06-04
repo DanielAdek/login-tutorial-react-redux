@@ -1,0 +1,16 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.spiner {
+    position: fixed;
+    z-index: 5;
+    transform: translate(526px, 249px);
+}
